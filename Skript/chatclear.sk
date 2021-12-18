@@ -1,0 +1,6 @@
+command /sil:
+	trigger:
+		loop 50 times:
+			send "&r" to players
+		wait 1 second
+		send "Sohbet Temizlendi!" to players
