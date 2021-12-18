@@ -1,8 +1,1 @@
-chatclear.sk die kaydetin !
 
-command /sil:
-	trigger:
-		loop 50 times:
-			send "&r" to players
-		wait 1 second
-		send "%player% Sohbet i Temizledi!" to players
